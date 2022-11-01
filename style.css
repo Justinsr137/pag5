@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 25px 300px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+div{
+    width: 500px;
+    height: 420px;
+    overflow: scroll;
+}
+
+.first{
+    border: 2px solid rosybrown;
+    background-color: antiquewhite;
+}
+
+.second{
+    border: solid 2px rgb(14, 34, 39);
+    background-color: rgb(129, 243, 129);
+}
+
+@media (max-width: 1050px){
+    h1{
+        margin: 25px 30px;
+    }
+
+    main{
+        display: block;
+    }
+    div{
+        width: 300px;
+        margin: 0 auto 40px;
+    }
+}
